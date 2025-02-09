@@ -36,7 +36,7 @@ See also:
     {% for bug in site.data.browser-bugs %}
     <tr>
       <td>{{ bug.browser }}</td>
-      <td>{{ bug.summary | markdownify }}</td>
+      <td>{{ bug.summary | markdownify | emojify }}</td>
       <td>{% include bugify.html content=bug.upstream_bug %}</td>
       <td>{% include bugify.html content=bug.origin %}</td>
     </tr>
@@ -63,7 +63,7 @@ We publicly list these "most wanted" feature requests here, in the hopes of expe
     {% for feat in site.data.browser-features %}
     <tr>
       <td>{{ feat.browser }}</td>
-      <td>{{ feat.summary | markdownify }}</td>
+      <td>{{ feat.summary | markdownify | emojify }}</td>
       <td>{% include bugify.html content=feat.upstream_bug %}</td>
       <td>{% include bugify.html content=feat.origin %}</td>
     </tr>

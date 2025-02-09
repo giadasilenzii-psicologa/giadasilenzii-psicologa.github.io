@@ -31,7 +31,7 @@
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="service__header mb-5">
                     <span class="top-title pre-line">{{ .topTitle }}</span>
-                    {{ .title | markdownify }}
+                    {{ .title | markdownify | emojify }}
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="mt-5">
-                            {{ .content | markdownify }}
+                            {{ .content | markdownify | emojify }}
                         </div>
                     </div>
                     {{ end }}

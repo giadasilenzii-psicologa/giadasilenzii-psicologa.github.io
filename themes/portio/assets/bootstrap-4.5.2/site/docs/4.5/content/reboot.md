@@ -67,37 +67,37 @@ All heading elements—e.g., `<h1>`—and `<p>` are reset to have their `margin-
   <tbody>
     <tr>
       <td>
-        {{ "`<h1></h1>`" | markdownify }}
+        {{ "`<h1></h1>`" | markdownify | emojify }}
       </td>
       <td><span class="h1">h1. Bootstrap heading</span></td>
     </tr>
     <tr>
       <td>
-        {{ "`<h2></h2>`" | markdownify }}
+        {{ "`<h2></h2>`" | markdownify | emojify }}
       </td>
       <td><span class="h2">h2. Bootstrap heading</span></td>
     </tr>
     <tr>
       <td>
-        {{ "`<h3></h3>`" | markdownify }}
+        {{ "`<h3></h3>`" | markdownify | emojify }}
       </td>
       <td><span class="h3">h3. Bootstrap heading</span></td>
     </tr>
     <tr>
       <td>
-        {{ "`<h4></h4>`" | markdownify }}
+        {{ "`<h4></h4>`" | markdownify | emojify }}
       </td>
       <td><span class="h4">h4. Bootstrap heading</span></td>
     </tr>
     <tr>
       <td>
-        {{ "`<h5></h5>`" | markdownify }}
+        {{ "`<h5></h5>`" | markdownify | emojify }}
       </td>
       <td><span class="h5">h5. Bootstrap heading</span></td>
     </tr>
     <tr>
       <td>
-        {{ "`<h6></h6>`" | markdownify }}
+        {{ "`<h6></h6>`" | markdownify | emojify }}
       </td>
       <td><span class="h6">h6. Bootstrap heading</span></td>
     </tr>
@@ -132,7 +132,7 @@ All lists—`<ul>`, `<ol>`, and `<dl>`—have their `margin-top` removed and a `
 7. Aenean sit amet erat nunc
 8. Eget porttitor lorem
 {% endcapture %}
-{{ markdown | markdownify }}
+{{ markdown | markdownify | emojify }}
 </div>
 
 For simpler styling, clear hierarchy, and better spacing, description lists have updated `margin`s. `<dd>`s reset `margin-left` to `0` and add `margin-bottom: .5rem`. `<dt>`s are **bolded**.

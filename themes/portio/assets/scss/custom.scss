@@ -1,0 +1,28 @@
+// Change all stop colors of SVG gradients to a light shade of green
+svg stop {
+    stop-color: $bubble-svg; // Light green color
+}
+
+
+.hero_background-svg path {
+    fill: $light-svg; 
+}
+
+.service__background svg path {
+    fill: $light-svg;
+}
+
+.icon-background svg path {
+    fill: $light-svg;
+}
+
+
+img[src$=".svg"] {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(20%) saturate(300%) hue-rotate(85deg) brightness(90%) contrast(85%);
+}
+
+.quote {
+    font-family: $quote-font-family;
+    color: $headings-color;
+    font-size: 2em !important;
+}

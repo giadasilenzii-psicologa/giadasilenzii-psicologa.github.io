@@ -54,7 +54,7 @@ Our `bootstrap.bundle.js` and `bootstrap.bundle.min.js` include [Popper](https:/
 - Tooltips and popovers for displaying and positioning (also requires [Popper.js](https://popper.js.org/))
 - Scrollspy for scroll behavior and navigation updates
 {% endcapture %}
-{{ markdown | markdownify }}
+{{ markdown | markdownify | emojify }}
 </details>
 
 ## Starter template

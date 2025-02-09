@@ -36,7 +36,7 @@ a.text-dark {
     }
 }
 
-// This fixes the fact that with `markdownify` we can't add `text-light`
+// This fixes the fact that with `markdownify | emojify` we can't add `text-light`
 // directly onto the generated `h1`, `h2` etc.
 .text-white {
     h1,

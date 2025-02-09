@@ -28,8 +28,9 @@
             </svg>
           </div>
           <div class="mb-5">
-            <span class="top-title pre-line">{{ .topTitle }}</span>
-            {{ .content | markdownify }}
+            <!--<span class="top-title pre-line">{{ .topTitle }}</span>-->
+            {{ .content | markdownify | emojify }}
+            <p class="quote">{{ .quote | markdownify | emojify }}</p>
           </div>
           <a type="button" class="btn btn-lg btn-primary btn-zoom"
             href="{{ .buttonURL | absURL }}">{{ .buttonName }}</a>

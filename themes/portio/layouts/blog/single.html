@@ -86,7 +86,7 @@
             {{ .TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
           {{ end }}
 
-          {{ .Content }}
+          {{ .Content | emojify }}
         </div>
       </div>
     </div>

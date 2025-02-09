@@ -8,7 +8,7 @@
                 <div class="resume__heading">
                     <div class="text-light">
                         <span class="top-title pre-line">{{ .topTitle }}</span>
-                        {{ .title | markdownify }}
+                        {{ .title | markdownify | emojify }}
                     </div>
 
                     <div class="btn-group nav mt-5">
@@ -24,7 +24,7 @@
                         {{ range $Section }}
                         <div class="resume__education_item">
                             <span class="pre-line text-primary"> {{ .time }} </span>
-                            {{ .content | markdownify }}
+                            {{ .content | markdownify | emojify }}
                         </div>
                         {{ end }}
 
@@ -35,7 +35,7 @@
                         {{ range $Section }}
                         <div class="resume__education_item">
                             <span class="pre-line text-primary"> {{ .time }} </span>
-                            {{ .content | markdownify }}
+                            {{ .content | markdownify | emojify }}
                         </div>
                         {{ end }}
                     </div>

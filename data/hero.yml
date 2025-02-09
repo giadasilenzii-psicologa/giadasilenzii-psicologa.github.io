@@ -1,13 +1,15 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+#topTitle: È la relazione che cura
 content: >
-  # I am here for your personal business
+  ## GIADA SILENZII
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
-buttonName: Contact me
+  Psicologa specializzanda in psicoterapia sistemico-relazionale
+
+quote: >
+  "È la relazione che cura" :herb: 
+buttonName: Contattami!
 buttonURL: contact
-image: images/hero/2960351.jpg
-videoThumb: images/hero/popup-thumb.png
-videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+image: images/hero/HomeGiada.jpg
+# videoThumb: images/hero/popup-thumb.png
+# videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ

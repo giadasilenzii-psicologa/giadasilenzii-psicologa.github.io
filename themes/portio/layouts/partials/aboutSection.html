@@ -6,7 +6,7 @@
             <div class="col-lg-6 offset-lg-3">
                 <div class="about_header mb-5">
                     <span class="top-title">{{ .topTitle }}</span>
-                    {{ .title | markdownify}}
+                    {{ .title | markdownify | emojify}}
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
                             </svg>
                         </div>
                         <div class="mb-4 text-light">
-                            {{ .content | markdownify}}
+                            {{ .content | markdownify | emojify}}
                         </div>
                         <div>
                             <a class="btn btn-primary mr-3 btn-zoom"

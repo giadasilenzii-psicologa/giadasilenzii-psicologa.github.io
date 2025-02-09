@@ -3,20 +3,27 @@
 //
 
 // General
-$primary: #5d78ff;
-$secondary: #282f49;
+$primary: #97aa87;
+$secondary: #49573d;
 // Text
-$headings-color: #282f49;
-$body-color: #7e7e8a;
+$headings-color: #49573d;
+$body-color: #97aa87;
 
-//
+$dark-background: #22291d;
+$bubble-svg: #bfcbb5;
+$light-svg: #f1f3ee;
+
+//c
 // Typography
 //
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 $font-family-base: "Poppins", sans-serif;
-$headings-font-family: "Yeseva One", cursive;
+$headings-font-family: "Patrick Hand", serif;
+$quote-font-family: "Cedarville Cursive", cursive;
 
 // Size
 $font-size-base: 1.125rem; // 18px
