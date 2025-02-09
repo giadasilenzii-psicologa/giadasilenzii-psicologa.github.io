@@ -1,0 +1,10 @@
+giada:
+  name: Giada Silenzii
+  title: Psicologa
+#  url: {site.url}
+  image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgklHd46FNC4kfDUG4UP4SIgVAQ7EtfQIWHQ&s
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/giada'
+  socials:
+    instagram: psicolo.giada
