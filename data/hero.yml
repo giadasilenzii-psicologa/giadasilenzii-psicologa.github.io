@@ -1,14 +1,14 @@
 ---
 enable: true
-#topTitle: È la relazione che cura
+topTitle: Dott.ssa
 content: >
-  ## GIADA SILENZII
+  ## Dott.ssa GIADA SILENZII
 
   Psicologa specializzanda in psicoterapia sistemico-relazionale
 
 quote: >
-  "È la relazione che cura" :herb: 
-buttonName: Contattami!
+  " È la relazione che cura" :herb: 
+buttonName: Inizia un percorso
 buttonURL: contact
 image: images/hero/HomeGiada.jpg
 # videoThumb: images/hero/popup-thumb.png

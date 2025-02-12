@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <div class="resume__heading">
                     <div class="text-light">
-                        <span class="top-title pre-line">{{ .topTitle }}</span>
+                        <!-- <span class="top-title pre-line">{{ .topTitle }}</span> -->
                         {{ .title | markdownify | emojify }}
                     </div>
 
@@ -23,7 +23,9 @@
                         {{ $Section := .education }}
                         {{ range $Section }}
                         <div class="resume__education_item">
-                            <span class="pre-line text-primary"> {{ .time }} </span>
+                            <!-- <span class="pre-line text-primary"> {{ .time }} </span> -->
+                             
+                             <span class="text-primary"><i class="fa fa-calendar"></i> {{ .time }} </span>
                             {{ .content | markdownify | emojify }}
                         </div>
                         {{ end }}

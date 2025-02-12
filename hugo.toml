@@ -54,6 +54,7 @@ url = "#"
 weight = 4
 
 [params]
+Home = "psicolo.giada"
 action = "Inizia un percorso"
 blogPageURL = "blog"
 contactLink = "contact"
