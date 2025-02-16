@@ -89,10 +89,7 @@ url = "https://www.linkedin.com/in/giada-silenzii-8006a3178/"
 username = "Linkedin - Giada Silenzii"
 weight = 2
 
-
-
 enableEmoji = true
-
 
 [markup]
 [markup.goldmark]
