@@ -36,7 +36,9 @@
                         {{ $Section := .experience }}
                         {{ range $Section }}
                         <div class="resume__education_item">
-                            <span class="pre-line text-primary"> {{ .time }} </span>
+                            <!-- <span class="pre-line text-primary"> {{ .time }} </span> -->
+                             
+                            <span class="text-primary"><i class="fa fa-calendar"></i> {{ .time }} </span>
                             {{ .content | markdownify | emojify }}
                         </div>
                         {{ end }}

@@ -23,25 +23,24 @@
 						</svg>
 					</div>
 					<div class="text-light footer__cta_content">
-						<span>Contact me</span>
-						<h2 class="mb-0">Let’s Start a Project</h2>
+						<!-- <span>Contattami</span> -->
+						<h2 class="mb-0">Inizia un percorso con me</h2>
 					</div>
 					<div class="footer__cta_action">
-						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">Get in
-							touch</a>
+						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">Contattami</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row footer__widget">
-			<div class="col-lg-4">
+			<!-- <div class="col-lg-4">
 				<div class="footer__widget_logo mb-5">
 					<img src="{{ .Site.Params.footerLogo | absURL }}" alt="widget-logo">
 				</div>
-			</div>
+			</div> -->
 			<div class="col-lg-4">
 				<div class="text-light footer__widget_sitemap mb-5">
-					<h4 class="base-font">Sitemap</h4>
+					<h4 class="base-font">Link Utili</h4>
 					<ul class="unstyle-list small">
 						{{ $sitemap := .Site.Menus.sitemap }}
 						{{ range $sitemap }}
@@ -51,28 +50,44 @@
 				</div>
 			</div>
 			<div class="col-lg-4">
+				<div class="text-light  mb-5">
+					<h4 class="base-font">Social</h4>
+					<ul class="fa-ul small">
+						{{ $social := .Site.Params.social }}
+						{{ range $social }}
+						<li class="mb-2">
+							<a class="text-light" href="{{ .url }}">
+								<span class="fa-li">
+								<i class="fa {{ .icon }}"></i>
+							</span> {{.username}} </a></li>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4">
 				<div class="text-light footer__widget_address mb-5">
-					<h4 class="base-font">Address</h4>
+					<h4 class="base-font">Contatti</h4>
 					{{ $address := .Site.Params.address }}
 					<ul class="fa-ul small">
 						<li class="mb-2"><a class="text-light" href="tel:{{ $address.phone }}"><span class="fa-li"><i
 										class="fa fa-phone"></i></span>{{ $address.phone }}</a></li>
 						<li class="mb-2"><a class="text-light" href="mailto:{{ $address.email }}"><span class="fa-li"><i
 										class="fa fa-envelope"></i></span>{{ $address.email }}</a></li>
-						<li class="mb-2">
+						<!-- <li class="mb-2">
 							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $address.address }}</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="row footer__footer">
-			<div class="col-lg-6">
+			<div class="col">
 				<div class="footer__footer_copy text-light">
-					<p>Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a class="text-light" href="https://staticmania.com/" target="_blank">StaticMania</a></p>
+					<p>Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a class="text-light"
+							href="https://staticmania.com/" target="_blank">StaticMania</a></p>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<!-- <div class="col-lg-6">
 				<div class="footer__footer_social">
 					<ul class="unstyle-list">
 						{{ $social := .Site.Params.social }}
@@ -83,19 +98,19 @@
 						{{ end }}
 					</ul>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.map.APIkey }}&libraries=geometry"></script>
-<script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}"></script>
-<script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
-<script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
-<script src="{{ "plugins/waypoint/jquery.waypoints.min.js" | absURL }}"></script>
-<script src="{{ "plugins/magnafic-popup/jquery.magnific-popup.min.js" | absURL }}"></script>
-<script src="{{ "plugins/tweenmax/TweenMax.min.js" | absURL }}"></script>
-<script src="{{ "plugins/imagesloaded/imagesloaded.min.js" | absURL }}"></script>
-<script src="{{ "plugins/masonry/masonry.min.js" | absURL }}"></script>
+<script src="{{ " plugins/jQuery/jquery.min.js" | absURL }}"></script>
+<script src="{{ " plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
+<script src="{{ " plugins/slick/slick.min.js" | absURL }}"></script>
+<script src="{{ " plugins/waypoint/jquery.waypoints.min.js" | absURL }}"></script>
+<script src="{{ " plugins/magnafic-popup/jquery.magnific-popup.min.js" | absURL }}"></script>
+<script src="{{ " plugins/tweenmax/TweenMax.min.js" | absURL }}"></script>
+<script src="{{ " plugins/imagesloaded/imagesloaded.min.js" | absURL }}"></script>
+<script src="{{ " plugins/masonry/masonry.min.js" | absURL }}"></script>
 <!-- {{ $formhandler := resources.Get "js/form-handler.js" | minify }}
 <script src="{{ $formhandler.Permalink }}"></script> -->
 {{ $script := resources.Get "js/script.js" | minify }}

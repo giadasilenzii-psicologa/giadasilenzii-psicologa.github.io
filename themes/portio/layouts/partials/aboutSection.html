@@ -18,8 +18,12 @@
                             <img src="images/hero/figure-svg.svg" alt="figure-svg">
                         </div>
                         <div class="about_content-thumb-image">
-                            <img src="{{ .image | absURL }}" alt="about-img"
-                                style='-webkit-mask: url({{"images/about/about-mask-svg.svg" | absURL}}); -webkit-mask-size: contain;'>
+                            <img src="{{ .image | absURL }}" alt="about-img" style='
+                            -webkit-mask: url({{ "images/about/about-mask-svg.svg" | absURL }});
+                            -webkit-mask-repeat: no-repeat;
+                            -webkit-mask-position: center center;
+                            -webkit-mask-size: contain;
+                        ' />
                         </div>
                     </div>
                     <div class="about_content-inner">

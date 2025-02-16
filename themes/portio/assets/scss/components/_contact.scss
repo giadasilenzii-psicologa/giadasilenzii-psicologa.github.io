@@ -1,6 +1,6 @@
 .contact__info {
   &_item {
-    box-shadow: 0px 20px 40px 0px rgba(50, 65, 141, 0.12);
+    box-shadow: 0px 20px 40px 0px $primary-shadow;
     padding: 50px 40px;
     border-radius: 20px;
     &-icon {

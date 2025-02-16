@@ -79,21 +79,16 @@ pinImage = "images/pin.png"
 
 # Social icons
 [[params.social]]
-icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+icon = "fa-instagram"
+url = "https://www.instagram.com/psicolo.giada"
+username = "psicolo.giada"
 weight = 1
 [[params.social]]
 icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+url = "https://www.linkedin.com/in/giada-silenzii-8006a3178/"
+username = "Linkedin - Giada Silenzii"
 weight = 2
-[[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
-weight = 3
-[[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
-weight = 4
+
 
 
 enableEmoji = true
