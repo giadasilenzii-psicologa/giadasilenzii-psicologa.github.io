@@ -5,7 +5,7 @@ title: >
   ## Curriculum
 
   Il percorso di formazione di una psicologa non finisce mai,
-  ma rqueste sono le tappe principali del mio viaggio finora...
+  ma queste sono le tappe principali del mio viaggio finora...
   
 tab1Name: Formazione
 tab2Name: Esperienze
@@ -31,22 +31,27 @@ education:
   
 experience:
   - content: >
-      #### Umbrella co. 
+      #### Tirocinio di specializzazione Consultorio Familiare
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
+      AUSL Romagna
+    time: 2025-in corso
+
   - content: >
-      #### Aperture Science 
+      #### Educatrice in comunità madre-bambino per donne vittime di violenza
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
+      Provincia di Forlì-Cesena
+    time: 2023-in corso
+
   - content: >
-      #### ACME Inc. 
+      #### Tirocinio 750 ore in Consultorio Familiare
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
+      AUSL Romagna
+    time: 2022-2023
+
   - content: >
-      #### LexCorp 
+      #### Tirocinio 150 ore Laboratorio di Psicologia Sociale
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
+      Alma Mater Studiorum - Università di Bologna
+    time: 2019-2020
+  
+

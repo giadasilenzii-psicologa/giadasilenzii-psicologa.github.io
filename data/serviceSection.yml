@@ -1,45 +1,43 @@
 ---
 enable: true
-topTitle: Working Area
+# topTitle: Working Area
 title: >
-  ## Creative Services
+  ## Come posso aiutarti
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  Offro consulenze individuali e di coppia per adolescenti, giovani adulti e adulti per affrontare insieme le seguenti tematiche:
 service:
   - content: >
-      #### UI/UX Design 
+      #### Sostegno psicologico e promozione del benessere
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      
     image: images/service/ui-ux.svg
   - content: >
-      #### Web Development 
+      #### Disturbi d'ansia
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      
+    image: images/service/ui-ux.svg
+  - content: >
+      #### Disturbi dell'umore
+
     image: images/service/web.svg
   - content: >
-      #### Creative Design 
+      #### Difficoltà relazionali e familiari
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/creative.svg
   - content: >
-      #### Branding
+      #### Problematiche di coppia
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
-  - content: >
-      #### UI/UX Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/ui-ux.svg
   - content: >
-      #### Web Development
+      #### Supporto alla genitorialità
+      
+      e gestione dei conflitti genitori-figli
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/web.svg
+  - content: >
+      #### Supporto psicologico in gravidanza e nella perinatalità
+    image: images/service/web.svg
+  - content: >
+      #### Elaborazione del lutto
+
+    image: images/service/branding.svg
