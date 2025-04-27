@@ -27,7 +27,7 @@
 						<h2 class="mb-0">Iniziamo un percorso insieme</h2>
 					</div>
 					<div class="footer__cta_action">
-						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">Contattami</a>
+						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contacts.form }}">Prenota un incontro</a>
 					</div>
 				</div>
 			</div>
@@ -67,14 +67,14 @@
 			<div class="col-lg-4">
 				<div class="text-light footer__widget_address mb-5">
 					<h4 class="base-font">Contatti</h4>
-					{{ $address := .Site.Params.address }}
+					{{ $contacts := .Site.Params.contacts }}
 					<ul class="fa-ul small">
-						<li class="mb-2"><a class="text-light" href="tel:{{ $address.phone }}"><span class="fa-li"><i
-										class="fa fa-phone"></i></span>{{ $address.phone }}</a></li>
-						<li class="mb-2"><a class="text-light" href="mailto:{{ $address.email }}"><span class="fa-li"><i
-										class="fa fa-envelope"></i></span>{{ $address.email }}</a></li>
+						<!-- <li class="mb-2"><a class="text-light" href="tel:{{ $contacts.phone }}"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>{{ $contacts.phone }}</a></li> -->
+						<li class="mb-2"><a class="text-light" href="mailto:{{ $contacts.email }}"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>{{ $contacts.email }}</a></li>
 						<!-- <li class="mb-2">
-							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $address.address }}</a>
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $contacts.address }}</a>
 						</li> -->
 					</ul>
 				</div>
@@ -83,7 +83,7 @@
 		<div class="row footer__footer">
 			<div class="col">
 				<div class="footer__footer_copy text-light">
-					<p>Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a class="text-light"
+					<p>Copyright {{ dateFormat "2006" now }} - Giada Silenzii - Built with <a class="text-light" href="https://staticmania.com/products/portio">Portio</a> from <a class="text-light"
 							href="https://staticmania.com/" target="_blank">StaticMania</a></p>
 				</div>
 			</div>

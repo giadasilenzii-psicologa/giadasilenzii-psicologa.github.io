@@ -1,7 +1,7 @@
 baseURL = "http://psicologiada.github.io/"
 languageCode = "it-it"
 
-paginate = 6
+# paginate = 6
 #[pagination]
 #disableAliases = true
 #pagerSize = 10
@@ -26,13 +26,13 @@ weight = 3
 name = "Curriculum"
 url = "#resume"
 weight = 4
-[[menu.main]]
-name = "Blog"
-url = "#blog"
-weight = 5
+#[[menu.main]]
+#name = "Blog"
+#url = "#blog"
+#weight = 5
 [[menu.main]]
 name = "Contatti"
-url = "#contact"
+url = "/contact"
 weight = 6
 
 # Sitemap Menu
@@ -60,22 +60,22 @@ blogPageURL = "blog"
 contactLink = "contact"
 copyright = "Giada Silenzii © 2025"
 footerLogo = "images/contact/widget-logo.png"
-# We're using formspree.io for form handling, paste your formspree url below
-fabformURL  = "https://fabform.io/f/JpTXRUa"
-googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/logo.png"
+googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 
-[params.address]
-address = ""
-email = "giadasile@gmail.com"
-openingHours = ""
-phone = "+(39) 339 3593531"
+
+[params.contacts]
+address = "Piazza Almerici, 10 - Cesena (FC)"
+email = "giadasilenzii.psi@gmail.com" 
+phone = "" #"+(39) 339 3593531"
+form="https://forms.gle/errnB51HrjwkfbzR8"
 
 [params.map]
-APIkey = "YOUR GOOGLE MAP API"
-latitude = "23.7783741"
-longitude = "90.3746808"
-pinImage = "images/pin.png"
+#APIkey = "YOUR GOOGLE MAP API"
+#latitude = "23.7783741"
+#longitude = "90.3746808"
+#pinImage = "images/pin.png"
+
 
 # Social icons
 [[params.social]]

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="80" viewBox="0 0 90 80">
+  <g id="Group_Envelope" data-name="Group Envelope" transform="translate(0 -21.333)">
+    <!-- Outer envelope border -->
+    <rect x="10" y="40" width="70" height="50" rx="7" ry="7" fill="none" stroke="#5d78ff" stroke-width="3"/>
+    <!-- Flap lines, slightly bigger and thinner -->
+    <path d="M13 43 L45.388 70 L76 43" fill="none" stroke="#5d78ff" stroke-width="3"/>
+  </g>
+</svg>
