@@ -11,26 +11,26 @@ service:
     
       Insieme possiamo lavorare per comprendere e affrontare momenti di difficoltà e disagio psicologico nel corso della vita, per migliorare il tuo benessere e la tua qualità di vita.
       
-    image: images/service/ui-ux.svg
+    image: images/service/support.svg
 
   - content: >
       #### Autostima e autoaccettazione
     
       Lavoriamo insieme per portare alla luce le tue risorse e potenzialità e per migliorare la tua autostima e il tuo modo di relazionarti con te stesso, lavorando sulle tue credenze autolimitanti.
       
-    image: images/service/web.svg
+    image: images/service/mirror.svg
 
   - content: > 
       #### Stress e burnout
     
       Posso offrirti uno spazio di supporto per affrontare lo stress in momenti difficili della tua vita e per prevenire il burnout, con un approccio integrato da tecniche di mindfulness.
-    image: images/service/creative.svg
+    image: images/service/burnout.svg
     
   - content: >
       #### Cambiamenti di vita
     
-      Insieme possiamo affrontare cambiamenti di vita significativi, come separazioni o cambiamenti lavorativi, che possono generare ansia e disagio, sviluppando la resilienza e la capacità di adattamento.
-    image: images/service/ui-ux.svg
+      Insieme possiamo affrontare cambiamenti di vita significativi, come trasferimenti o cambiamenti lavorativi, che possono generare ansia e disagio, sviluppando la resilienza e la capacità di adattamento.
+    image: images/service/boxes.svg
 
   - content: >
       #### Disturbi d'ansia e dell'umore
@@ -38,23 +38,23 @@ service:
       Offro sostegno psicologico per problematiche legate all'ansia e agli attacchi di panico, alla depressione e disturbi dell'umore, riservandomi la possibilità di inviare o collaborare con colleghi più esperti a seconda della complessità della situazione.
     
       
-    image: images/service/ui-ux.svg
+    image: images/service/cloud-head.svg
 
   - content: >
       #### Difficoltà relazionali, di coppia e familiari
     
       Posso offrirti uno spazio di ascolto e supporto per affrontare difficoltà relazionali, conflitti e crisi di coppia, nonchè problematiche di natura familiare, per facilitare la comunicazione e aiutare a comprendere eventuali dinamiche disfunzionali. 
-    image: images/service/creative.svg
+    image: images/service/heart-plant.svg
 
   - content: >
       #### Supporto alla genitorialità
       
       Offro supporto e consulenza per genitori e figli, per affrontare insieme difficoltà legate alla crescita e alla comunicazione, soprattutto in fase adolescenziale, nonchè migliorare la gestione del conflitto genitori-figli.
 
-    image: images/service/web.svg
+    image: images/service/house.svg
 
   - content: >
       #### Elaborazione del lutto
       
       Insieme possiamo affrontare il lutto e la perdita di una persona cara, per elaborare il dolore e riportare in equilibrio la tua vita.
-    image: images/service/branding.svg
+    image: images/service/dove.svg

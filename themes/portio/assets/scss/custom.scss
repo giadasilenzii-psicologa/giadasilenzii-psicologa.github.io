@@ -26,3 +26,18 @@ img[src$=".svg"] {
     color: $headings-color;
     font-size: 1.5em !important;
 }
+
+.item-block{
+    margin: 0px;
+    position: relative;
+    min-height: 100% !important;
+}
+
+.item-col{ 
+    margin-top:20px;
+}
+
+.item-icon>img{
+    width: 80%;
+    //filter: brightness(0) saturate(100%) invert(75%) sepia(20%) saturate(300%) hue-rotate(85deg) brightness(90%) contrast(85%);
+}
