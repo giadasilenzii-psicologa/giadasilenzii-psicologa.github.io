@@ -2,18 +2,21 @@
 enable: true
 #topTitle: About
 title: >
-  ## Su di me
+  ## Il mio approccio
 
-  Sono una psicologa, specializzanda in psicoterapia sistemico-relazionale
 content: >
-  ### I design and build ultimate things.
+  ### Mi chiamo Giada e sono una psicologa specializzanda in psicoterapia sistemico-relazionale.
 
-  I love to work in User Experience & User Interface designing. Because I love
-  to solve the design problem and find easy and better solutions to solve it. I always
-  try my best to make good user interface with the best user experience. I have been
-  working as a Visual designer from.
-button1Name: Hire me
-button2Name: Download CV
-button1Target: contact
-button2Target: contact
-image: images/about/about-img.jpg
+  Fin dall'inizio del mio percorso di studi, ho sempre creduto che le relazioni giocassero un ruolo 
+  fondamentale in ciò che siamo e in come interpretiamo la realtà. 
+  Sentirsi soli al mondo ed incompresi, per la nostra psiche, può essere distruttivo.
+  
+
+  È per questo motivo che uno dei cardini principali del mio lavoro nella stanza di terapia è proprio la relazione terapeutica:
+  credo fortemente che questa sia il primo strumento di cura. 
+  
+
+  Il mio obiettivo è quello di creare uno spazio sicuro ed empatico, in cui la persona possa sentirsi libera di esprimere le proprie emozioni e dove, in un percorso co-costruito, possa accompagnarla alla scoperta del proprio modo di relazionarsi con sé stessa ed il mondo.
+
+
+image: images/books.jpg

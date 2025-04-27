@@ -8,36 +8,53 @@ title: >
 service:
   - content: >
       #### Sostegno psicologico e promozione del benessere
-
+    
+      Insieme possiamo lavorare per comprendere e affrontare momenti di difficoltà e disagio psicologico nel corso della vita, per migliorare il tuo benessere e la tua qualità di vita.
       
     image: images/service/ui-ux.svg
-  - content: >
-      #### Disturbi d'ansia
 
+  - content: >
+      #### Autostima e autoaccettazione
+    
+      Lavoriamo insieme per portare alla luce le tue risorse e potenzialità e per migliorare la tua autostima e il tuo modo di relazionarti con te stesso, lavorando sulle tue credenze autolimitanti.
       
-    image: images/service/ui-ux.svg
-  - content: >
-      #### Disturbi dell'umore
-
     image: images/service/web.svg
-  - content: >
-      #### Difficoltà relazionali e familiari
 
+  - content: > 
+      #### Stress e burnout
+    
+      Posso offrirti uno spazio di supporto per affrontare lo stress in momenti difficili della tua vita e per prevenire il burnout, con un approccio integrato da tecniche di mindfulness.
     image: images/service/creative.svg
+    
   - content: >
-      #### Problematiche di coppia
-
+      #### Cambiamenti di vita
+    
+      Insieme possiamo affrontare cambiamenti di vita significativi, come separazioni o cambiamenti lavorativi, che possono generare ansia e disagio, sviluppando la resilienza e la capacità di adattamento.
     image: images/service/ui-ux.svg
+
+  - content: >
+      #### Disturbi d'ansia e dell'umore
+
+      Offro sostegno psicologico per problematiche legate all'ansia e agli attacchi di panico, alla depressione e disturbi dell'umore, riservandomi la possibilità di inviare o collaborare con colleghi più esperti a seconda della complessità della situazione.
+    
+      
+    image: images/service/ui-ux.svg
+
+  - content: >
+      #### Difficoltà relazionali, di coppia e familiari
+    
+      Posso offrirti uno spazio di ascolto e supporto per affrontare difficoltà relazionali, conflitti e crisi di coppia, nonchè problematiche di natura familiare, per facilitare la comunicazione e aiutare a comprendere eventuali dinamiche disfunzionali. 
+    image: images/service/creative.svg
+
   - content: >
       #### Supporto alla genitorialità
       
-      e gestione dei conflitti genitori-figli
+      Offro supporto e consulenza per genitori e figli, per affrontare insieme difficoltà legate alla crescita e alla comunicazione, soprattutto in fase adolescenziale, nonchè migliorare la gestione del conflitto genitori-figli.
 
     image: images/service/web.svg
-  - content: >
-      #### Supporto psicologico in gravidanza e nella perinatalità
-    image: images/service/web.svg
+
   - content: >
       #### Elaborazione del lutto
-
+      
+      Insieme possiamo affrontare il lutto e la perdita di una persona cara, per elaborare il dolore e riportare in equilibrio la tua vita.
     image: images/service/branding.svg
