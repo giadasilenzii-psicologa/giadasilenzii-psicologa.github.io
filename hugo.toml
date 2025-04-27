@@ -1,4 +1,4 @@
-baseURL = "http://psicologiada.github.io/"
+baseURL = "http://giadasilenzii-psicologa.github.io/"
 languageCode = "it-it"
 
 # paginate = 6
@@ -19,12 +19,12 @@ name = "Chi sono"
 url = "#about"
 weight = 2
 [[menu.main]]
-name = "Servizi"
-url = "#service"
-weight = 3
-[[menu.main]]
 name = "Curriculum"
 url = "#resume"
+weight = 3
+[[menu.main]]
+name = "Servizi"
+url = "#service"
 weight = 4
 #[[menu.main]]
 #name = "Blog"
