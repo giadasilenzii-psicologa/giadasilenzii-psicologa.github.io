@@ -5,6 +5,21 @@
   <meta name="description" content="Sito personale di Giada Silenzii Psicologa" />
   <meta name="google-site-verification" content="dUmu1y62PQ99-HzK4qRJ0C8WzgSLKVRMq0dHj2O_l9I" />
 
+  {{"<!-- Open Graph / Facebook -->" | safeHTML }}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{Giada Silenzii | Psicologa}}">
+  <meta property="og:image" content="{{ "images/preview/preview.jpg" | absURL }}">
+
+  {{"<!-- Twitter -->" | safeHTML }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ .Permalink }}">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{Giada Silenzii | Psicologa}}">
+  <meta name="twitter:image" content="{{ "images/preview/preview.jpg" | absURL }}">
+
+
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
