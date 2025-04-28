@@ -63,6 +63,9 @@ footerLogo = "images/contact/widget-logo.png"
 logo = "images/site-navigation/logo.png"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 
+[params.emailjs]
+key=""
+
 
 [params.contacts]
 address = "Piazza Almerici, 10 - Cesena (FC)"
