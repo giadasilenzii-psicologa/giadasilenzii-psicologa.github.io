@@ -114,7 +114,11 @@
           <h3>Contattami</h3>
         </div>
         <div class="contact-form-input">
-          <form id="contact-form"  method="POST">
+          
+          <form id="contact-form"  action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="{{.Site.Params.web3forms.key }}" />
 
             <div class="form-row">
 

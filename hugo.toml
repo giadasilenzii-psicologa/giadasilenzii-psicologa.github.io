@@ -61,10 +61,11 @@ contactLink = "contact"
 copyright = "Giada Silenzii © 2025"
 footerLogo = "images/contact/widget-logo.png"
 logo = "images/site-navigation/logo.png"
-googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+googleAnalytics = "G-FC79LNC3QW"
 
-[params.emailjs]
-key=""
+[params.web3forms]
+key="2862ed3c-2ddc-409b-8c05-d9da0cd4486a"
+
 
 
 [params.contacts]

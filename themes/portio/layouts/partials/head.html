@@ -4,7 +4,7 @@
 
   <meta name="description" content="Sito personale di Giada Silenzii Psicologa" />
   <meta name="google-site-verification" content="dUmu1y62PQ99-HzK4qRJ0C8WzgSLKVRMq0dHj2O_l9I" />
-  
+
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -38,13 +38,4 @@
   </script>
   {{ end }}
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script type="text/javascript">
-      (function() {
-          // https://dashboard.emailjs.com/admin/account
-          emailjs.init({
-            publicKey: "{{.Site.Params.emailjs.key}}",
-          });
-      })();
-  </script>
 </head>
