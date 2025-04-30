@@ -41,3 +41,26 @@ img[src$=".svg"] {
     width: 80%;
     //filter: brightness(0) saturate(100%) invert(75%) sepia(20%) saturate(300%) hue-rotate(85deg) brightness(90%) contrast(85%);
 }
+
+.align-right{
+    text-align: right;
+}
+
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }

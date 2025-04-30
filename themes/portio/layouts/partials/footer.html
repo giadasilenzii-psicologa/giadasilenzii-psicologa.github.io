@@ -33,22 +33,6 @@
 			</div>
 		</div>
 		<div class="row footer__widget">
-			<!-- <div class="col-lg-4">
-				<div class="footer__widget_logo mb-5">
-					<img src="{{ .Site.Params.footerLogo | absURL }}" alt="widget-logo">
-				</div>
-			</div> -->
-			<!-- <div class="col-lg-4">
-				<div class="text-light footer__widget_sitemap mb-5">
-					<h4 class="base-font">Link Utili</h4>
-					<ul class="unstyle-list small">
-						{{ $sitemap := .Site.Menus.sitemap }}
-						{{ range $sitemap }}
-						<li class="mb-2"><a class="text-light" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-						{{ end }}
-					</ul>
-				</div>
-			</div> -->
 			<div class="col-lg-4">
 				<div class="text-light  mb-5">
 					<h4 class="base-font">Social</h4>
@@ -79,11 +63,25 @@
 					</ul>
 				</div>
 			</div>
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_sitemap mb-5">
+					<h4 class="base-font">Link Utili</h4>
+					<ul class="unstyle-list small">
+						<li class="mb-2"><a class="text-light" href="{{.Site.Params.albo}}">Iscrizione all'albo</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		<div class="row footer__footer">
-			<div class="col">
+			<div class="col-lg-6">
 				<div class="footer__footer_copy text-light">
-					<p>Copyright {{ dateFormat "2006" now }} - Giada Silenzii - Built with <a class="text-light" href="https://staticmania.com/products/portio">Portio</a> from <a class="text-light"
+					<p>Copyright {{ dateFormat "2006" now }} - Giada Silenzii </p>
+					<p>Partita IVA: {{.Site.Params.piva}}</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="footer__footer_copy text-light">
+					<p class="align-right">Built with <a class="text-light" href="https://staticmania.com/products/portio">Portio</a> by <a class="text-light"
 							href="https://staticmania.com/" target="_blank">StaticMania</a></p>
 				</div>
 			</div>
