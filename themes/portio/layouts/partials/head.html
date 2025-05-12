@@ -40,6 +40,8 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon/favicon.ico" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon/favicon.png" | absURL }}" type="image/x-icon" />
+
+  <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="Epl5baW87RMdrw" async></script>
   
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
@@ -51,8 +53,6 @@
 
     gtag('config', '{{ . }}');
   </script>
-  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a62c4de7-72ca-4d57-85fe-67bafe2c01b9" type="text/javascript" async></script>
   {{ end }}
-
 
 </head>
