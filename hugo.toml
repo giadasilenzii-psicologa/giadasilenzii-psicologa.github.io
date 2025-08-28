@@ -71,10 +71,13 @@ key="2862ed3c-2ddc-409b-8c05-d9da0cd4486a"
 
 
 [params.contacts]
-address = "Piazza Almerici, 10 - Cesena (FC)"
+address1 = "**Studio Mentis** - Piazza Almerici, 10"
+address2 = "**Farmacia San Francesco** - Via Salvatore Quasimodo, 244"
+city = "Cesena (FC)"
 email = "giadasilenzii.psi@gmail.com" 
 phone = "" #"+(39) 339 3593531"
 form="https://forms.gle/errnB51HrjwkfbzR8"
+map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3993.0227390053474!2d12.24153947695848!3d44.13815062092996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5e577ea157d%3A0xce96c25e1a03a98!2sStudio%20Mentis%20-%20Studio%20di%20Psicologia!5e1!3m2!1sen!2sit!4v1756400320803!5m2!1sen!2sit"
 
 [params.map]
 #APIkey = "YOUR GOOGLE MAP API"
