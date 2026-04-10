@@ -72,7 +72,7 @@ key="2862ed3c-2ddc-409b-8c05-d9da0cd4486a"
 
 [params.contacts]
 address1 = "**Studio Mentis** - Piazza Almerici, 10"
-address2 = "**Farmacia San Francesco** - Via Salvatore Quasimodo, 244"
+#address2 = "**Farmacia San Francesco** - Via Salvatore Quasimodo, 244"
 city = "Cesena (FC)"
 email = "giadasilenzii.psi@gmail.com" 
 phone = "+(39) 353 4901980"

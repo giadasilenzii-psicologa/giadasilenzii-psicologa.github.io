@@ -13,6 +13,14 @@ service:
       
     image: images/service/support.svg
 
+
+  - content: >
+      #### Consulenza per il metodo di studio
+    
+      Possiamo lavorare insieme per sviluppare un metodo di studio efficace e personalizzato, per migliorare la tua organizzazione, la gestione del tempo e le strategie di apprendimento.
+      
+    image: images/service/book-shelf.svg
+
   - content: >
       #### Autostima e autoaccettazione
     

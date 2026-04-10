@@ -57,13 +57,14 @@
           <h4>Dove Ricevo</h4>
           <p>
             {{ $contacts.address1  | markdownify }}
-            <br>
-            {{ $contacts.address2  | markdownify }}
-            <br>
+            {{/*  <br>
+            {{ $contacts.address2  | markdownify }}  */}}
+            {{/*  <br>  */}}
             {{ $contacts.city }}
           </p>
         </div>
       </div>
+
       <div class="col-lg-4">
         <div class="contact__info_item">
           <div class="contact__info_item-icon">
@@ -75,17 +76,16 @@
               </svg>
             </div>
             <div class="icon">
-               {{/*  <img src="{{ "images/contact/phone.svg" | absURL }}" alt="phone" />  */}}
                <img src="{{ "images/contact/email.svg" | absURL }}" alt="envelope" />
             </div>
           </div>
           <h4>Email</h4>
-            <!-- <p>{{ $contacts.phone }}<br> -->
+          <p>
             <a href="mailto:{{ $contacts.email }}">{{ $contacts.email }}</a>
           </p>
-
         </div>
       </div>
+
       <div class="col-lg-4">
         <div class="contact__info_item">
           <div class="contact__info_item-icon">
@@ -98,11 +98,10 @@
             </div>
             <div class="icon">
                <img src="{{ "images/contact/phone.svg" | absURL }}" alt="phone" />
-               
             </div>
           </div>
           <h4>Telefono</h4>
-            <!-- <p>{{ $contacts.phone }}<br> -->
+          <p>
             <a href="tel:{{ $contacts.phone }}">{{ $contacts.phone }}</a>
           </p>
         </div>
